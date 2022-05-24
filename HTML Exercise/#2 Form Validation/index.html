@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="Macam2Form">
+        <h1 style="text-align: center ;">Macam Macam Form di HTML</h1>
+        <article class="Nama">
+            <h3>Form Nama</h3>
+            <form action="">
+                <input type="text" name="name" required>
+                <input type="submit" name="name" id="name" value="Daftar">
+            </form>
+        </article>
+        <hr>
+        <article class="Email">
+            <h3>Form Email</h3>
+            <form action="">
+                <input type="email" name="email" id="email" required>
+                <input type="submit" value="Daftar">
+            </form>
+        </article>
+        <hr>
+        <article class="Nama">
+            <h3>Form Pasword</h3>
+            <form action="">
+                <input type="password" name="password" required>
+                <input type="submit" name="pw" id="pw" value="Daftar">
+            </form>
+        </article>
+        <hr>
+        <article class="Nama">
+            <h3>Form Warna</h3>
+            <form action="">
+                <input type="color" name="colour" required>
+                <input type="submit" name="Warna" id="Warna" value="submit">
+            </form>
+        </article>
+        <hr>
+        <article class="Nama">
+            <h3>Form Search</h3>
+            <form action="">
+                <input type="search" name="password" required>
+                <input type="submit" name="name" id="name" value="Cari">
+            </form>
+        </article>
+        <hr>
+        <article class="Nama">
+            <h3>Form Telepon</h3>
+            <form action="">
+                <input type="tel" name="Telepon" required>
+                <input type="submit" name="Telepon" id="Telepon" value="Daftar">
+            </form>
+        </article>
+    </section>
+    <hr>
+    <!-- DAN MASIH BANYAK LAGI  -->
+    <section class="minMax">
+        <h1 style="text-align: center ;">Min - Max</h1>
+        <article>
+            <form action="">
+                <input type="number" name="tinggi" id="tinggi" min="100" max="400">
+                <input type="submit" name="tinggi" id="tinggi" value="Daftar">
+            </form>
+        </article>        
+    </section>
+    <hr>
+    <!-- MUNGKIN MASI ADA LAGI ?? -->
+    <section class="Disabled">
+        <h1 style="text-align: center;">Disabled</h1>
+        <article>
+            <form action="">
+                <article>
+                    <input type="text" name="username" value="Rafli Ramadhani" disabled>
+                    <input type="submit" name="username" disabled>
+                </article>
+            </form>
+        </article>
+    </section>
+    <hr>
+    <section class="validasiJenis">
+        <h1 style="text-align: center;">Validasi File</h1>
+        <article>
+            <form action="">
+                <input type="file" name="file" accept="image/*">
+                <input type="submit" value="upload"/>
+            </form>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h1 style="text-align:center ;">Input Grade</h1>
+        <form action="">
+            <input type="text" pattern="[A-F][+-]?|D">
+            <input type="submit" value="Simpan">
+        </form>
+    </section>
+    <hr>
+    <section>
+        <h1 style="text-align:center ;">Radio</h1>
+        <form action="">
+            <input type="radio" >Yaa
+            <input type="radio" value="">Yaa
+            <input type="submit" value="Simpan">
+        </form>
+    </section>
+    <hr>
+    <section>
+        <h1 style="text-align:center ;">Check box</h1>
+        <form action="">
+            <input type="checkbox" name="" id="">Check
+        </form>
+    </section>
+    
+</body>
+</html>

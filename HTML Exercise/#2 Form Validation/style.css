@@ -1,0 +1,30 @@
+.Macam2Form{
+    width: 100%;
+    height: 100%;
+    
+    padding: 5px;
+}
+
+.minMax {
+    width: 100%;
+    height: 100%;
+    
+    padding: 5px;
+    margin: 5px;
+}
+
+.Disabled {
+    width: 100%;
+    height: 100%;
+    
+    padding: 5px;
+    margin: 5px;
+}
+
+.validasiJenis {
+    width: 100%;
+    height: 100%;
+    
+    padding: 5px;
+    margin: 5px;
+}

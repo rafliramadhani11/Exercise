@@ -1,0 +1,23 @@
+
+.all-browser {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 5px;
+}
+
+.all-browser > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background-color: white;
+}
+
+aside {
+    margin-left: 15px;
+    width: 40%;
+    padding-left: 15px;
+    float: right;
+    background-color: lightblue;
+}
