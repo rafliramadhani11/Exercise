@@ -1,0 +1,63 @@
+.container {
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+img {
+  width: 250px;
+  height: 300px;
+  float: left;
+}
+
+img,
+p {
+  padding: 10px;
+  margin: 10px;
+}
+
+.gallery {
+  width: 100%;
+}
+
+#poto1,
+#poto2,
+#poto3,
+#poto4,
+#poto5,
+#poto6,
+#poto7,
+#poto8 {
+  width: 250px;
+  height: 300px;
+  float: left;
+}
+
+.container1 {
+  width: 50%;
+}
+
+.border {
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 10px;
+  text-align: center;
+}
+
+.satu {
+  width: 35%;
+  height: 100px;
+  background-color: salmon;
+  float: left;
+}
+.dua {
+  width: 40%;
+  height: 100px;
+  background-color: orange;
+  float: left;
+}
+.tiga {
+  width: 25%;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+}
