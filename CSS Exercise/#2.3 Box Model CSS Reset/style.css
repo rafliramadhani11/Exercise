@@ -1,0 +1,12 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
+
+.box,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}

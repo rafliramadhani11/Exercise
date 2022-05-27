@@ -1,0 +1,35 @@
+.satu {
+  background-color: orange;
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  padding: 30px;
+}
+.dua {
+  width: 250px;
+  height: 200px;
+  background-color: orange;
+  padding: 30px;
+  margin: 10px;
+  border: 5px solid black; /* border : WIDTH STYLE COLOUR ; */
+}
+
+.boxSizing {
+  box-sizing: border-box;
+  /* background-color: yellow; */
+  width: 600px;
+  margin: 10px;
+}
+
+.Bdua {
+  background-color: orange;
+  padding: 30px;
+  margin: 10px;
+  border: 5px solid black; /* border : WIDTH STYLE COLOUR ; */
+}
+.Adua {
+  background-color: orange;
+  padding: 30px;
+  margin: 10px;
+  border: 5px solid black; /* border : WIDTH STYLE COLOUR ; */
+}

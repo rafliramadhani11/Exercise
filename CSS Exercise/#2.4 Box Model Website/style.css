@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+header {
+  padding: 20px;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: rgb(89, 185, 94);
+}
+
+.hero {
+  /* height: 280px; */
+  display: inline-block;
+}
+
+#poto1,
+#poto2,
+#poto3 {
+  width: 200px;
+  height: 280px;
+  margin: 10px 30px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.main p {
+  margin-top: -20px;
+  font-size: 13px;
+}
+
+.paragraph {
+  padding: 20px;
+  margin-top: -50px;
+}
+
+footer {
+  height: 45px;
+  background-color: #333;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  padding: 10px;
+}
