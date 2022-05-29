@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static, Relative, Absolute, Fixed</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="static">
+        <h3>Static position</h3>
+        <ul>
+          <li>Value default untuk semua elemen jika tidak di beri property position</li>
+        </ul>
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+        <hr />
+      </div>
+      <div class="relative">
+        <h3>Relative Position</h3>
+        <ul>
+          <li>Elemen akan naik 1 dimensi</li>
+          <li>Ruang sebelumnya masi ada</li>
+          <div class="asatu"></div>
+          <div class="adua"></div>
+          <div class="atiga"></div>
+        </ul>
+      </div>
+      <hr />
+      <div class="absolute">
+        <h3>Absoulte Position</h3>
+        <ul>
+          <li>Elemen naik 1 dimensi, dan ruang elemen absolute ini menghilang</li>
+          <li>Elemen absolute akan bergerak relatif terhadap parent (Parent non-static)</li>
+          <li>*(class absolute ini ber property absolute)</li>
+        </ul>
+        <div class="bsatu"></div>
+        <div class="bdua"></div>
+        <div class="btiga"></div>
+      </div>
+      <hr />
+      <div class="fixed">
+        <ul>
+          <li>Element naik 1 dimensi</li>
+          <li>Bergerak relatif terhadap window</li>
+          <li>*(biasanya value ini digunakan untuk membuat navbar atau top bar dengan CSS)</li>
+        </ul>
+        <div class="csatu"></div>
+        <div class="cdua">
+          <p>Hai aku Class Fixed :D</p>
+        </div>
+        <div class="ctiga"></div>
+      </div>
+    </div>
+  </body>
+</html>
