@@ -12,6 +12,7 @@ body {
   background-color: white;
 }
 
+/* --------- Header ---------- */
 header {
   padding: 20px;
 }
@@ -35,6 +36,7 @@ header a:hover {
   color: rgb(89, 185, 94);
 }
 
+/* --------- Hero ---------- */
 .hero {
   /* height: 280px; */
   display: inline-block;
@@ -48,6 +50,7 @@ header a:hover {
   margin: 10px 30px;
 }
 
+/* --------- Main ---------- */
 .main {
   padding: 20px;
 }
@@ -62,6 +65,7 @@ header a:hover {
   margin-top: -50px;
 }
 
+/* --------- Footer ---------- */
 footer {
   height: 45px;
   background-color: #333;

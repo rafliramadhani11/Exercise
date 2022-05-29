@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>z-index</title>
+    <style>
+      div {
+        position: absolute;
+      }
+
+      div p {
+        color: wheat;
+        text-align: center;
+      }
+
+      .satu {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        z-index: 1;
+      }
+      .dua {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        top: 200px;
+        left: 50px;
+        z-index: 2;
+      }
+      .tiga {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        top: 280px;
+        left: 100px;
+        z-index: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Position : z-index</h2>
+    <ul>
+      <li>Untuk mengatur elemen-elemen ber property non-static</li>
+      <li>Kenapa z ? z untuk sumbu 3 dimensi , berbeda dengan x dan y</li>
+      <li>Semakin besar value nya makan elemen non-static tersebut akan maju</li>
+    </ul>
+    <div class="satu">
+      <p>z-index ku berisi = 1</p>
+    </div>
+    <div class="dua"><p>z-index ku berisi = 2</p></div>
+    <div class="tiga"><p>z-index ku berisi = 1</p></div>
+  </body>
+</html>
