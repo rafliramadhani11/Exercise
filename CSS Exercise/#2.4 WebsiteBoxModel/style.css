@@ -1,78 +1,78 @@
+body,
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #eaeaea;
-  color: #333;
-  margin: 0px;
-  padding: 0px;
+  background-image: url(foto/webb.png);
 }
 
 .container {
-  width: 800px;
-  margin: auto;
+  width: 960px;
+  margin: 40px auto;
   background-color: white;
 }
 
-/* --------- Header ---------- */
-header {
-  padding: 20px;
+/* ----------- Header ------------ */
+.header {
+  padding: 15px;
 }
-
-header h2 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-header ul li {
-  display: inline;
-}
-
-header a {
-  text-decoration: none;
-  color: #333;
-}
-
-header a:hover {
-  text-decoration: underline;
-  color: rgb(89, 185, 94);
-}
-
-/* --------- Hero ---------- */
-.hero {
-  /* height: 280px; */
+.header ul li {
   display: inline-block;
+  margin-top: 10px;
 }
-
-#poto1,
-#poto2,
-#poto3 {
-  width: 200px;
+.header ul li a {
+  text-decoration: none;
+  margin-left: 15px;
+}
+.header h1 {
+  margin-left: 15px;
+}
+.header ul li a {
+  font-size: 14px;
+}
+.header ul li a:hover {
+  color: sandybrown;
+  transition: 1ms;
+}
+/* ----------- Hero ------------ */
+.hero {
   height: 280px;
-  margin: 10px 30px;
+  border-top: 5px solid sandybrown;
+  border-bottom: 5px solid slategray;
+  background-image: url(foto/blake-connally-B3l0g6HLxr8-unsplash.jpg);
+  background-size: cover;
+  background-position: 0 -180px;
 }
-
-/* --------- Main ---------- */
-.main {
+/* ----------- Content ------------ */
+.penulis a {
+  text-decoration: none;
+  color: slategray;
+}
+.content p {
+  padding: 20px;
+  text-indent: 50px;
+}
+.content h1 {
+  padding: 15px;
+}
+.content h1,
+p {
   padding: 20px;
 }
-
-.main p {
-  margin-top: -20px;
-  font-size: 13px;
-}
-
-.paragraph {
-  padding: 20px;
-  margin-top: -50px;
-}
-
-/* --------- Footer ---------- */
-footer {
-  height: 45px;
-  background-color: #333;
+/* ----------- Footer ------------ */
+.footer {
+  height: 60px;
+  background-color: slategray;
   text-align: center;
 }
 
-footer p {
+.footer p {
+  color: rgb(255, 255, 255);
+}
+
+.footer a {
   color: white;
-  padding: 10px;
 }
