@@ -1,0 +1,29 @@
+div {
+  margin: 50px auto;
+}
+p {
+  text-align: center;
+}
+.satu {
+  width: 500px;
+  height: 230px;
+  background-image: radial-gradient(red, blue);
+}
+
+.satu1 {
+  width: 500px;
+  height: 230px;
+  background-image: radial-gradient(circle, red, blue);
+}
+
+.dua1 {
+  width: 500px;
+  height: 230px;
+  background-image: radial-gradient(circle, red 50%, blue 80%);
+}
+
+.tiga {
+  width: 500px;
+  height: 230px;
+  background-image: radial-gradient(circle farthest-corner at top left, red, blue);
+}
