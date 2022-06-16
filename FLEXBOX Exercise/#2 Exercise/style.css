@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+/* --------- Latihan 1 ------------- */
+.container1 {
+  background-color: white;
+  margin: 50px auto;
+  padding: 20px;
+  box-sizing: border;
+  display: flex;
+  line-height: 20px;
+}
+
+.kolomUtama {
+  flex: 3;
+  order: 2;
+  margin-left: -50px;
+  margin-right: 20px;
+}
+.sideKolom1 {
+  flex: 1;
+  order: 1;
+}
+.sideKolom2 {
+  flex: 1;
+  order: 3;
+}
+/* ------- AKHIR LATIHAN -------- */
+
+/* --------- Latihan 2 ------------*/
+.container-2 {
+  margin: 50px auto;
+  max-width: 90%;
+}
+.layanan {
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+.layanan1 {
+  background-color: rgb(128, 255, 128);
+}
+.layanan2 {
+  background-color: rgb(247, 138, 138);
+}
+.layanan3 {
+  background-color: rgb(146, 146, 245);
+}
+
+@media (min-width: 1000px) {
+  .container-2 {
+    justify-content: space-between;
+    display: flex;
+  }
+  .layanan {
+    width: 30%;
+  }
+}
