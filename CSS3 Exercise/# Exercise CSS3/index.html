@@ -4,35 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercise CSS 3</title>
+    <title>CSS 3 Exercise</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="judul">
-        <h1>Marvel Avangers</h1>
-      </div>
+      <h1>The Avangers</h1>
       <div class="box">
-        <ul>
+        <ul class="galery">
           <li>
-            <a href="">
-              <img src="img/ms-marvel.jpeg" alt="" class="border msMarvel" id="msMarvel" />
+            <a href="#gambar1">
+              <img src="img/ms-marvel.jpeg" alt="" />
+              <span>Ms Marvel</span>
             </a>
+            <div class="overlay" id="gambar1">
+              <a href="#" class="close">X CLOSE</a>
+              <img src="img full/msMarvel.jpeg" alt="" />
+            </div>
           </li>
+
           <li>
-            <a href="">
-              <img src="img/009731200_1650307333-278898405_1458830424544565_7967350039753851754_n.jpg" alt="" class="border thor" />
+            <a href="#gambar2">
+              <img src="img/thor.jpg" alt="" />
+              <span>Thor</span>
             </a>
+            <div class="overlay" id="gambar2">
+              <a href="#" class="close">X CLOSE</a>
+              <img src="img full/Thor.jpg" alt="" />
+            </div>
           </li>
+
           <li>
-            <a href="">
-              <img src="img/17138-doctor-strange-in-the-multiverse-of-madness.jpg" alt="" class="border doctor" />
+            <a href="#gambar3">
+              <img src="img/doc.jpg" alt="" />
+              <span>Doctor</span>
             </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="img/81pA2-Ri-YL._AC_SY679_.jpg" alt="" class="border top" />
-            </a>
+            <div class="overlay" id="gambar3">
+              <a href="#" class="close">X CLOSE</a>
+              <img src="img full/Doctor.jpg" alt="" />
+            </div>
           </li>
         </ul>
       </div>
